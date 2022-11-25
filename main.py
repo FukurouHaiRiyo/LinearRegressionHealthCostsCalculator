@@ -9,7 +9,7 @@ from tensorflow.keras import layers
 from tensorflow.keras.layers.experimental import preprocessing
 from sklearn.model_selection import train_test_split
 
-PATH = '/home/andrei/Desktop/MachineLearningCourse/LinearRegressionHealthCostsCalculator/insurance.csv'
+PATH = 'path/to/insurance.csv'
 
 dataset = pd.read_csv(PATH)
 print(dataset.tail())
